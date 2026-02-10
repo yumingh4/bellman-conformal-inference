@@ -1,0 +1,8 @@
+task: trend
+method: fixed
+id:
+  - statistics
+  - deeplearning
+  - iphone
+alpha0:
+  - 0.1

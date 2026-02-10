@@ -92,7 +92,7 @@ class VolatilityData(ForecastingData):
         
         # load forecasting df for the experiemnt
         df = pd.read_csv('data/vlfc/{}-fc.csv'.format(cid))
-        df.loc[:,'Date'] = pd.to_datetime(df['Date'], format='%Y-%m-%d')
+        df['Date'] = pd.to_datetime(df['Date'], format='%Y-%m-%d') # yuming changed this 
         df.sort_values(by='Date')
         self.df = df.set_index('Date')
 

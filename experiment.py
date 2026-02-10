@@ -25,6 +25,7 @@ class ForecastingExperiment:
             self.fcdata = ReturnData(self.params['id'])
         elif params['task']=='trend':
             self.fcdata = TrendData(self.params['id'])
+
         else:
             raise NotImplementedError("Dataset not supported")
 
