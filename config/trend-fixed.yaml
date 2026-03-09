@@ -1,8 +1,9 @@
 task: trend
 method: fixed
-id:
-  - statistics
-  - deeplearning
-  - iphone
-alpha0:
+id: google_trends
+# id:
+#   - statistics
+#   - deeplearning
+#   - iphone
+alpha0: 
   - 0.1

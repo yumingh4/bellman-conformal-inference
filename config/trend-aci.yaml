@@ -1,20 +1,21 @@
 task: trend
 method: aci
-id:
-  - statistics
-  - deeplearning
-  - iphone
-alpha0:
+id: google_trends
+  # - statistics
+  # - deeplearning
+  # - iphone
+alpha0: 
   - 0.1
-gamma:
-  - 0.001
-  - 0.003
-  - 0.005
-  - 0.008
-  - 0.1
-lambda_init:
+gamma: 
+  - 0.1 # 0.008 for loose in code
+  # - 0.001
+  # - 0.003
+  # - 0.005
+  # - 0.008
+  # - 0.1
+lambda_init: 
   - 0.9
-lambda_max:
+lambda_max: 
   - 1
-lambda_min:
+lambda_min: 
   - 0

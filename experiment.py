@@ -8,6 +8,7 @@ from visualize import visualize_single_exp
 from visualize import gen_plot_data
 from dataloader.vlfc import VolatilityData
 from dataloader.normfc import ReturnData
+from dataloader.trendfc import TrendData
 
 import pandas as pd
 import numpy as np
