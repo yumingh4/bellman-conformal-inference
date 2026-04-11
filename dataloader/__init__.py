@@ -70,11 +70,11 @@ class ForecastingData:
         plt.plot(alphas, coverage_rates, label='ECC')
         plt.plot(alphas, alphas, linestyle='--', label='45-degree line')
         # plt.xlabel('Alpha', fontsize=25)
-        plt.ylabel('Mis-coverage Rate', fontsize=25)
-        plt.title('Expected Calibration Curve for {}'.format(self.name))
-        plt.legend(fontsize=25)
-        plt.xticks(fontsize=20)
-        plt.yticks(fontsize=20)
+        plt.ylabel('Mis-coverage Rate', fontsize=17)
+        # plt.title('Expected Calibration Curve for {}'.format(self.name))
+        plt.legend(fontsize=17)
+        plt.xticks(fontsize=15)
+        plt.yticks(fontsize=15)
         plt.tight_layout()
         plt.savefig(
             'data/{}/figures/{}-ece.pdf'.format(self.task, self.name),
