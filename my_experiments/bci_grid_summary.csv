@@ -1,2 +1,0 @@
-run_id,task,method,id,alpha0,lambda_init,gamma,lambda_max,lambda_min,T,Tp,avg_interval_length,coverage_rate
-bci_run_0,trend,bci,google_trends,0.1,5000,700,1000000000,0,7,0,5.569377578112628,0.8796116504854369
