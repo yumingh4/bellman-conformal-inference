@@ -5,5 +5,4 @@ id: google_trends
 #   - statistics
 #   - deeplearning
 #   - iphone
-alpha0: 
-  - 0.1
+alpha0: 0.1

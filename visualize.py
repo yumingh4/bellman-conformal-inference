@@ -28,8 +28,8 @@ PLOT_PARAM = {'xform': {'vlfc': lambda val: np.sqrt(val),
 
 def gen_plot_data(result_df, ma_window, xstick_skip, xform):
     err_ind = np.array(result_df['alpha'] > result_df['beta'])
-    upper = xform(result_df['upper'].astype(float)) # yuming added
-    lower = xform(result_df['lower'].astype(float)) # yuming added 
+    upper = xform(result_df['upper'].astype(float)) 
+    lower = xform(result_df['lower'].astype(float)) 
 
     # running average
     miscovrate = compute_local_avg(err_ind, ma_window) # miscoverage rate

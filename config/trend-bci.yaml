@@ -4,9 +4,8 @@ id: google_trends
   # - statistics
   # - deeplearning
   # - iphone
-alpha0: 
-  - 0.1
-lambda_init: 
+alpha0: 0.1
+lambda_init: 10000.00
   # - 1000.00
   # - 1128.84
   # - 1274.27
@@ -26,18 +25,13 @@ lambda_init:
   # - 6951.93
   # - 7847.60
   # - 8858.67
-  - 10000.00
 gamma: 700
   # - 545.56
   # - 615.85
   # - 695.19
   # - 784.76
   # - 885.87
-lambda_max: 
-  - 1000000000
-lambda_min: 
-  - 0
-T: 
-  - 7
-Tp: 
-  - 0
+lambda_max: 1000000000
+lambda_min: 0
+T: 7
+Tp: 0
